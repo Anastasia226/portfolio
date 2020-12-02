@@ -268,4 +268,7 @@ header .item {
     font-size: 26px;
     line-height: 20px;
   }
+  #about {
+    margin-top: 170px;
+}
 }
