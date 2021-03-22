@@ -76,25 +76,25 @@ header .portret {
 .navbar-toggler-icon {
   background-image: url("../img/multipleline_114207.png");
 }
-.portfolio-img{
+.portfolio-img {
   max-width: 100%;
 }
 .portfolio-img img {
- width: 100%;
+  width: 100%;
 }
-#portfolio h3{
+#portfolio h3 {
   font-size: 40px;
   font-family: Roboto;
   margin-bottom: 15px;
 }
-#portfolio p, #portfolio ul{
-  
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 27px;
-color: #424040;
+#portfolio p,
+#portfolio ul {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #424040;
 }
 header .about {
   font-family: Roboto Condensed;
@@ -220,12 +220,16 @@ header .items {
   margin-bottom: 20px;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 header .item {
   font-weight: bold;
   padding: 8px;
   border: 1px solid black;
   margin: 5px;
+}
+header .item:hover {
+  background-color: #bfc2c2;
 }
 @media (max-width: 768px) {
   .portret {
@@ -270,5 +274,5 @@ header .item {
   }
   #about {
     margin-top: 170px;
-}
+  }
 }
